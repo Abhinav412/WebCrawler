@@ -51,6 +51,11 @@ class State(InputState):
     graph_entities: list[GraphEntity] = field(default_factory=list)
     structured_results: list[StructuredResult] = field(default_factory=list)
 
+    # Insights / explainability
+    insights_summary: str = ""
+    insights_items: list[dict[str, Any]] = field(default_factory=list)
+    insights_metadata: dict[str, Any] = field(default_factory=dict)
+
     # Iterative enrichment
     target_metrics: list[str] = field(default_factory=list)
     missing_data_targets: list[str] = field(default_factory=list)
@@ -67,6 +72,9 @@ class State(InputState):
 class OutputState:
     extracted_entities: list[ExtractedEntity]
     structured_results: list[StructuredResult] = field(default_factory=list)
+    insights_summary: str = ""
+    insights_items: list[dict[str, Any]] = field(default_factory=list)
+    insights_metadata: dict[str, Any] = field(default_factory=dict)
     session_id: str = ""
     raw_doc_ids: list[str] = field(default_factory=list)
     raw_vector_ids: list[str] = field(default_factory=list)

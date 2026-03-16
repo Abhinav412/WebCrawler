@@ -130,6 +130,7 @@ async def _run_rank_pipeline(job_id: str, query: str, config: dict, top_n: int =
             ("entity_extractor", "Extracting knowledge graph triples"),
             ("neo4j_ingester",   "Ingesting entities into Neo4j"),
             ("graph_structurer", "Querying Neo4j → StructuredResults"),
+            ("insights_generator","Generating explainability insights"),
             ("metrics_evaluator","Checking for missing metric gaps"),
         ]:
             push("node_start", {"node": node, "label": label})
@@ -142,12 +143,22 @@ async def _run_rank_pipeline(job_id: str, query: str, config: dict, top_n: int =
         session_id         = result.get("session_id", "")
         structured_results = result.get("structured_results", [])
         extracted_entities = result.get("extracted_entities", [])
+        insights_summary   = result.get("insights_summary", "")
+        insights_items     = result.get("insights_items", [])
+        insights_metadata  = result.get("insights_metadata", {})
         missing_targets    = result.get("missing_data_targets", [])
 
         push("node_complete", {"node": "entity_extractor",  "label": f"{len(extracted_entities)} entities with triples extracted", "count": len(extracted_entities)})
         push("node_complete", {"node": "neo4j_ingester",    "label": "Knowledge graph written to Neo4j"})
         push("node_complete", {"node": "graph_structurer",  "label": f"{len(structured_results)} structured results from Neo4j",   "count": len(structured_results)})
+        push("node_complete", {"node": "insights_generator", "label": f"{len(insights_items)} explainability insights generated", "count": len(insights_items)})
         push("node_complete", {"node": "metrics_evaluator", "label": f"{len(missing_targets)} missing metric gaps detected"})
+
+        push("insight_ready", {
+            "summary": insights_summary,
+            "items": insights_items,
+            "metadata": insights_metadata,
+        })
 
         if missing_targets:
             push("agent_message", {
@@ -164,7 +175,17 @@ async def _run_rank_pipeline(job_id: str, query: str, config: dict, top_n: int =
 
         if not structured_results:
             push("warning", {"message": "No structured results — cannot produce ranking. Try a more specific query."})
-            job.update({"status": "completed", "ranking_result": {}, "cost_summary": result.get("cost_summary", {}), "completed_at": datetime.now(timezone.utc).isoformat()})
+            job.update({
+                "status": "completed",
+                "ranking_result": {},
+                "insights": {
+                    "summary": insights_summary,
+                    "items": insights_items,
+                    "metadata": insights_metadata,
+                },
+                "cost_summary": result.get("cost_summary", {}),
+                "completed_at": datetime.now(timezone.utc).isoformat(),
+            })
             push("done", {"status": "completed", "job_id": job_id})
             return
 
@@ -220,6 +241,11 @@ async def _run_rank_pipeline(job_id: str, query: str, config: dict, top_n: int =
             "status":         "completed",
             "session_id":     session_id,
             "ranking_result": ranking_result.to_dict(),
+            "insights": {
+                "summary": insights_summary,
+                "items": insights_items,
+                "metadata": insights_metadata,
+            },
             "cost_summary":   result.get("cost_summary", tracker.get_summary()),
             "completed_at":   datetime.now(timezone.utc).isoformat(),
         })
@@ -241,6 +267,7 @@ async def start_rank(request: RankRequest):
         "job_id": job_id, "status": "running", "query": request.query,
         "started_at": datetime.now(timezone.utc).isoformat(),
         "completed_at": None, "events": [], "ranking_result": None,
+        "insights": {"summary": "", "items": [], "metadata": {}},
         "cost_summary": {}, "session_id": "", "error": None,
     }
     asyncio.create_task(_run_rank_pipeline(job_id, request.query, {"max_retries": request.max_retries, "min_credibility": request.min_credibility}, top_n=request.top_n))
