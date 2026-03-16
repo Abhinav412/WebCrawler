@@ -1,8 +1,9 @@
-"""LangGraph StateGraph — full 9-node pipeline.
+"""LangGraph StateGraph — full 10-node pipeline.
 
 Flow:
   START → intent_parser → url_discovery
-        →(URLs?)→ web_crawler
+        →(URLs?)→ url_relevance_filter
+        →(relevant URLs?)→ web_crawler
         →(docs?)→ source_verifier
         →(verified?)→ mongo_logger
         → entity_extractor → neo4j_ingester
@@ -25,6 +26,7 @@ from crawler.state import InputState, OutputState, State
 
 from crawler.nodes.intent_parser import parse_intent
 from crawler.nodes.url_discovery import discover_urls
+from crawler.nodes.url_relevance_filter import filter_relevant_urls
 from crawler.nodes.web_crawler import crawl_pages
 from crawler.nodes.source_verifier import verify_sources
 from crawler.nodes.mongo_logger import log_to_mongo
@@ -37,10 +39,17 @@ from crawler.nodes.metrics_evaluator import evaluate_metrics
 
 # ── Routing ──────────────────────────────────────────────────
 
-def route_after_discovery(state: State) -> Literal["web_crawler", "__end__"]:
+def route_after_discovery(state: State) -> Literal["url_relevance_filter", "__end__"]:
+    if state.discovered_urls:
+        return "url_relevance_filter"
+    print("[Router] No URLs discovered — ending pipeline.")
+    return "__end__"
+
+
+def route_after_relevance(state: State) -> Literal["web_crawler", "__end__"]:
     if state.discovered_urls:
         return "web_crawler"
-    print("[Router] No URLs discovered — ending pipeline.")
+    print("[Router] No relevant URLs after filtering — ending pipeline.")
     return "__end__"
 
 
@@ -114,6 +123,7 @@ workflow = StateGraph(
 
 workflow.add_node("intent_parser", parse_intent)
 workflow.add_node("url_discovery", discover_urls)
+workflow.add_node("url_relevance_filter", filter_relevant_urls)
 workflow.add_node("web_crawler", crawl_pages)
 workflow.add_node("source_verifier", verify_sources)
 workflow.add_node("mongo_logger", log_and_preprocess)   # logs + chroma write
@@ -125,6 +135,7 @@ workflow.add_node("metrics_evaluator", evaluate_metrics)
 workflow.add_edge("__start__", "intent_parser")
 workflow.add_edge("intent_parser", "url_discovery")
 workflow.add_conditional_edges("url_discovery", route_after_discovery)
+workflow.add_conditional_edges("url_relevance_filter", route_after_relevance)
 workflow.add_conditional_edges("web_crawler", route_after_crawl)
 workflow.add_conditional_edges("source_verifier", route_after_verify)
 workflow.add_edge("mongo_logger", "entity_extractor")

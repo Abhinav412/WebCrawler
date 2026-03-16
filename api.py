@@ -123,6 +123,7 @@ async def _run_rank_pipeline(job_id: str, query: str, config: dict, top_n: int =
         for node, label in [
             ("intent_parser",    "Parsing intent & generating search queries"),
             ("url_discovery",    "Discovering URLs via Tavily search"),
+            ("url_relevance_filter", "Filtering URLs by query relevance"),
             ("web_crawler",      "Crawling pages (crawl4ai + httpx)"),
             ("source_verifier",  "Verifying source credibility"),
             ("mongo_logger",     "Persisting to MongoDB + ChromaDB"),

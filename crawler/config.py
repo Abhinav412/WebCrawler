@@ -22,6 +22,16 @@ class Configuration:
         metadata={"description": "Max results per Tavily search query."},
     )
 
+    min_url_relevance_score: float = field(
+        default=0.2,
+        metadata={"description": "Minimum lexical relevance score (0-1) for pre-crawl URL filtering."},
+    )
+
+    enable_llm_url_relevance: bool = field(
+        default=True,
+        metadata={"description": "If true, use an LLM tie-breaker for borderline URL relevance decisions."},
+    )
+
     min_word_count: int = field(
         default=100,
         metadata={"description": "Minimum word count to pass the crawler quality gate."},

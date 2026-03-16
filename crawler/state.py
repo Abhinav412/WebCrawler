@@ -30,6 +30,7 @@ class State(InputState):
 
     # URL Discovery
     discovered_urls: list[DiscoveredURL] = field(default_factory=list)
+    irrelevant_urls: list[DiscoveredURL] = field(default_factory=list)
 
     # Web Crawler
     crawled_docs: list[CrawledDoc] = field(default_factory=list)
