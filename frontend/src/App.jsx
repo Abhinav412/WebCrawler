@@ -61,6 +61,7 @@ const GRAPH_NODES = [
   { id: "entity_extractor", label: "Entity Extractor", icon: "⊡" },
   { id: "neo4j_ingester",   label: "Neo4j Ingester",   icon: "⊠" },
   { id: "graph_structurer", label: "Graph Structurer", icon: "⋈" },
+  { id: "insights_generator",label: "Insights Generator", icon: "✶" },
   { id: "metrics_evaluator",label: "Metrics Eval",     icon: "⊗" },
 ];
 const RANK_NODES = [
@@ -241,6 +242,67 @@ const css = `
   .criterion-weight { color:var(--rank); font-weight:600; }
   .criterion-dir    { color:var(--muted); font-size:0.58rem; }
 
+  .insights-panel {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border: 1px solid var(--border);
+    background: var(--surface);
+  }
+  .insights-title {
+    font-size: 0.62rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--accent2);
+    margin-bottom: 0.6rem;
+  }
+  .insights-summary {
+    font-size: 0.74rem;
+    line-height: 1.6;
+    color: var(--text);
+    margin-bottom: 0.85rem;
+  }
+  .insight-item {
+    padding: 0.65rem 0.7rem;
+    border: 1px solid var(--border);
+    background: rgba(255,255,255,0.02);
+    margin-bottom: 0.5rem;
+  }
+  .insight-head {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    margin-bottom: 0.3rem;
+  }
+  .insight-title {
+    font-size: 0.72rem;
+    color: var(--accent);
+  }
+  .insight-confidence {
+    font-size: 0.58rem;
+    color: var(--muted);
+  }
+  .insight-finding {
+    font-size: 0.7rem;
+    line-height: 1.45;
+    color: var(--text);
+    margin-bottom: 0.35rem;
+  }
+  .insight-evidence {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+  }
+  .insight-source {
+    font-size: 0.6rem;
+    border: 1px solid var(--border);
+    color: var(--crawl);
+    text-decoration: none;
+    padding: 0.12rem 0.4rem;
+  }
+  .insight-source:hover {
+    border-color: var(--crawl);
+  }
+
   /* Table */
   .table-wrap { overflow-x:auto; border:1px solid var(--border); }
   table  { width:100%; border-collapse:collapse; font-size:0.75rem; }
@@ -315,6 +377,7 @@ function logLabel(ev) {
     case "node_start":     return `↻ ${ev.node} — ${ev.label || ""}`;
     case "node_complete":  return `✓ ${ev.node}${ev.count != null ? ` (${ev.count})` : ""} — ${ev.label || ""}`;
     case "agent_message":  return `⟶ ${ev.from} → ${ev.to}: ${ev.content}`;
+    case "insight_ready":  return `✶ insights ready (${(ev.items || []).length})`;
     case "warning":        return `⚠ ${ev.message}`;
     case "error":          return `✗ ${ev.message}`;
     case "done":           return `✦ Pipeline complete`;
@@ -336,6 +399,7 @@ export default function App() {
   const [agentMsgs,   setAgentMsgs]   = useState([]);
   const [nodeStates,  setNodeStates]  = useState({});
   const [rankedTable, setRankedTable] = useState(null);
+  const [insights,    setInsights]    = useState({ summary: "", items: [], metadata: {} });
   const [error,       setError]       = useState(null);
 
   const logRef   = useRef(null);
@@ -349,6 +413,14 @@ export default function App() {
     setEvents(prev => [...prev, ev]);
     if (ev.type === "node_start")    setNodeStates(p => ({ ...p, [ev.node]: "active" }));
     if (ev.type === "node_complete") setNodeStates(p => ({ ...p, [ev.node]: "done" }));
+    if (ev.type === "insight_ready") {
+      setInsights({
+        summary: ev.summary || "",
+        items: Array.isArray(ev.items) ? ev.items : [],
+        metadata: ev.metadata || {},
+      });
+      setNodeStates(p => ({ ...p, insights_generator: "done" }));
+    }
     if (ev.type === "agent_message") {
       setAgentMsgs(prev => [...prev, ev]);
       if (ev.from) setNodeStates(p => ({ ...p, [ev.from]: "done" }));
@@ -361,7 +433,7 @@ export default function App() {
     if (!query.trim() || jobStatus === "running") return;
     setJobStatus("running");
     setEvents([]); setAgentMsgs([]); setNodeStates({});
-    setRankedTable(null); setError(null); setJobId(null);
+    setRankedTable(null); setInsights({ summary: "", items: [], metadata: {} }); setError(null); setJobId(null);
 
     try {
       const res  = await fetch(`${API}/crawl/rank`, {
@@ -378,7 +450,7 @@ export default function App() {
       esRef.current = es;
 
       ["phase_start","phase_complete","node_start","node_complete",
-       "agent_message","warning","error","done","status"].forEach(type => {
+       "agent_message","insight_ready","warning","error","done","status"].forEach(type => {
         es.addEventListener(type, e => handleEvent({ ...JSON.parse(e.data), type }));
       });
 
@@ -387,6 +459,7 @@ export default function App() {
           .then(r => r.json())
           .then(result => {
             setRankedTable(normaliseRanking(result.ranking_result || result.ranked_table));
+            setInsights(result.insights || { summary: "", items: [], metadata: {} });
             setJobStatus(result.status || "completed");
           });
 
@@ -600,6 +673,45 @@ export default function App() {
               a weighted min-max algorithm to produce a scored comparison table.
             </div>
           </div>
+        )}
+
+        {(insights.summary || (Array.isArray(insights.items) && insights.items.length > 0)) && (
+          <section className="insights-panel">
+            <div className="insights-title">
+              Explainability Insights ({insights.items?.length || 0})
+            </div>
+            {insights.summary && <div className="insights-summary">{insights.summary}</div>}
+            {(insights.items || []).map((item, idx) => (
+              <div className="insight-item" key={`${item.title || "insight"}-${idx}`}>
+                <div className="insight-head">
+                  <div className="insight-title">{item.title || "Insight"}</div>
+                  {typeof item.confidence === "number" && (
+                    <div className="insight-confidence">conf {(item.confidence * 100).toFixed(0)}%</div>
+                  )}
+                </div>
+                <div className="insight-finding">{item.finding || ""}</div>
+                {Array.isArray(item.evidence) && item.evidence.length > 0 && (
+                  <div className="insight-evidence">
+                    {item.evidence
+                      .map(ev => ev?.source_url)
+                      .filter(Boolean)
+                      .map((url, i) => (
+                        <a
+                          key={`${url}-${i}`}
+                          className="insight-source"
+                          href={url}
+                          target="_blank"
+                          rel="noreferrer"
+                          title={url}
+                        >
+                          ↗ {getHostname(url)}
+                        </a>
+                      ))}
+                  </div>
+                )}
+              </div>
+            ))}
+          </section>
         )}
 
         {/* ── Ranking Results ── */}

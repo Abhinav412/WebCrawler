@@ -7,7 +7,7 @@ Flow:
         →(docs?)→ source_verifier
         →(verified?)→ mongo_logger
         → entity_extractor → neo4j_ingester
-        → graph_structurer → metrics_evaluator
+        → graph_structurer → insights_generator → metrics_evaluator
         →(gaps & retries left?)→ intent_parser (retry)
         →(done)→ END
 
@@ -34,6 +34,7 @@ from crawler.nodes.preprocessor import preprocess
 from crawler.nodes.entity_extractor import extract_entities
 from crawler.nodes.neo4j_ingester import ingest_to_neo4j
 from crawler.nodes.graph_structurer import structure_from_graph
+from crawler.nodes.insights_generator import generate_insights
 from crawler.nodes.metrics_evaluator import evaluate_metrics
 
 
@@ -130,6 +131,7 @@ workflow.add_node("mongo_logger", log_and_preprocess)   # logs + chroma write
 workflow.add_node("entity_extractor", extract_entities)
 workflow.add_node("neo4j_ingester", ingest_to_neo4j)
 workflow.add_node("graph_structurer", structure_from_graph)
+workflow.add_node("insights_generator", generate_insights)
 workflow.add_node("metrics_evaluator", evaluate_metrics)
 
 workflow.add_edge("__start__", "intent_parser")
@@ -141,7 +143,8 @@ workflow.add_conditional_edges("source_verifier", route_after_verify)
 workflow.add_edge("mongo_logger", "entity_extractor")
 workflow.add_edge("entity_extractor", "neo4j_ingester")
 workflow.add_edge("neo4j_ingester", "graph_structurer")
-workflow.add_edge("graph_structurer", "metrics_evaluator")
+workflow.add_edge("graph_structurer", "insights_generator")
+workflow.add_edge("insights_generator", "metrics_evaluator")
 workflow.add_conditional_edges("metrics_evaluator", route_after_evaluation)
 
 graph = workflow.compile()

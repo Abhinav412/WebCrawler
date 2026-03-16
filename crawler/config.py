@@ -87,6 +87,16 @@ class Configuration:
         metadata={"description": "Neo4j database name (default or Aura DB name)."},
     )
 
+    enable_insights_node: bool = field(
+        default=True,
+        metadata={"description": "If true, generate explainability insights from structured results and verified sources."},
+    )
+
+    enable_insights_llm_synthesis: bool = field(
+        default=False,
+        metadata={"description": "If true, use an LLM pass to polish the insights summary text."},
+    )
+
     @classmethod
     def from_runnable_config(
         cls, config: Optional[RunnableConfig] = None
