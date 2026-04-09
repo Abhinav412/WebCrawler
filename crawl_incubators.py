@@ -97,24 +97,39 @@ async def run_enrichment(input_file: str = None, output_dir: str = "./datasets")
     if input_file and os.path.exists(input_file):
         with open(input_file, 'r', encoding='utf-8') as f:
             data = json.load(f)
-            entities = [IncubatorEntity(**e) for e in data.get('entities', [])]
+            if isinstance(data, list):
+                raw_entities = data
+            else:
+                raw_entities = data.get('entities', [])
+            
+            entities = []
+            for e in raw_entities:
+                # Filter out keys that IncubatorEntity doesn't accept (like 'source_url' from live seeds)
+                valid_keys = IncubatorEntity.__dataclass_fields__.keys()
+                kwargs = {k: v for k, v in e.items() if k in valid_keys}
+                
+                # Map discovery seed fields if present
+                if "source_url" in e and "sources" not in kwargs:
+                    kwargs["sources"] = [e["source_url"]]
+                    
+                entities.append(IncubatorEntity(**kwargs))
     else:
         print("Error: No discovery file found. Run discovery phase first.")
         return {}
     
     enricher = IncubatorEnricher()
-    enriched = []
     
-    print(f"\nEnriching {len(entities)} entities...")
-    print("This may take 30-60 minutes depending on connection speed.\n")
+    print(f"\nEnriching {len(entities)} entities using Vector RAG Pipeline...")
+    print("This will execute in two stages: Vector Harvesting and JSON Synthesis.\n")
     
-    for i, entity in enumerate(entities, 1):
-        print(f"[{i}/{len(entities)}] Enriching: {entity.name}", end=" ")
+    await enricher.batch_enrich(entities)
+    enriched = entities
+    
+    print("\nEnrichment Complete. Calculating completeness scores:")
+    for i, entity in enumerate(enriched, 1):
+        completeness = entity.data_completeness
+        print(f"[{i}/{len(entities)}] {entity.name} ", end="")
         
-        enriched_entity = await enricher.enrich_entity(entity)
-        enriched.append(enriched_entity)
-        
-        completeness = enriched_entity.data_completeness
         if completeness >= 0.8:
             print(f"✓ ({completeness:.0%} complete)")
         elif completeness >= 0.5:

@@ -163,10 +163,9 @@ async def _search_via_cli(configuration: Configuration, query: str, limit: int) 
         return []
 
     prompt = (
-        "You are collecting incubator crawl sources. "
         f"Find up to {max(1, int(limit))} high-quality web sources for this query: {query}. "
         "Return ONLY valid JSON as an array of objects with keys: "
-        "url, title, snippet, content."
+        "url, title, snippet, content. No extra commentary."
     )
 
     session_key = (configuration.openclaw_session_key or "agent:main").strip()

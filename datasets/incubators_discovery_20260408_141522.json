@@ -1,0 +1,2869 @@
+{
+  "metadata": {
+    "discovery_date": "2026-04-08T14:15:22.348536",
+    "duration_seconds": 385.865755,
+    "total_discovered": 254
+  },
+  "entities": [
+    {
+      "name": "AIC-RNTU Foundation",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "AIIH Foundation",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "KALCHURI LNCT GROUP INCUBATION CENTRE",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "SGSITS Incubation Forum (SIF)",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "DBT ILS Bioincubator",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "Foundation for Technology and Business Incubation - FTBI",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "IIM Calcutta Innovation Park",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/",
+        "https://www.failory.com/startups/bangalore-accelerators-incubators"
+      ]
+    },
+    {
+      "name": "IKN Innovation Foundation",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "Incubation Center, IIT Patna (IC IITP)",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "KIIT Technology Business Incubator",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "RISE Foundation IISER",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "SSU Innovation Foundation",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "ACIC BMU Foundation",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "ACIC RISE Association",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "ACIC-VGU",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "AIC Banasthali",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "AIC GGSIPU Foundation Delhi",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "Amity Technology Incubator",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "Atal Incubation Centre JKLU",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "Baba Farid School of Entreprenurship",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "Bennett Hatchery Foundation",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "BSC BioNEST Bio-Incubator",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "Central University of Punjab R & D Foundation",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "CGLS Foundation (STEP)",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "CIED - IUST Foundation",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "DTU Innovation and Incubation Foundation",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "Foundation for Innovation and Technology Transfer, IIT Delhi",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "Foundation for Innovation in Science & Technology (FIRST) - SIIC",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "GL Bajaj for Research and Incubation",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "Greenovator Incubation Foundation (GIF-ITBI)",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "i-FLIE HUB Incubator (IILM Entrepreneurship Foundation)",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "IIITD Innovation & Incubation Center",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/",
+        "https://iiitdic.in/"
+      ]
+    },
+    {
+      "name": "IIM LUCKNOW ENTERPRISE INCUBATION CENTRE",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "IIT Mandi Catalyst",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "Indigram Labs Foundation",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "JECRC Incubation Centre",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "Krishna Path Incubation Society -TBIKIET",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "Navrachna Foundation for Entrepreneurship Development",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "Pilani Innovation Enterprenurship and Development Society (PIEDS)",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "PUNJAB BIOTECHNOLOGY INCUBATOR",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "Science & Technology Entrepreneurs' Park - GNDEC",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "Shri Mata Vaishno Devi University Technology Business Incubator Center Society (SMVDU-TBIC)",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "SPARKL GLA TBI Foundation",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "SSCBS Innovation and Incubation Foundation",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "UPES Council for Innovation and Entrepreneurship",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "AIC SMU Technology Business Incuabtion Foundation",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "IIT Guwahati TIDF BioNEST",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "Mizoram University Incubation Centre",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "AgHub",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "AIC MAHINDRA",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/member-directory/"
+      ]
+    },
+    {
+      "name": "ISBAHUB",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/"
+      ]
+    },
+    {
+      "name": "NSRCEL",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/",
+        "https://www.indianweb2.com/p/complete-list-of-startup-incubators-in.html",
+        "https://www.iimb.ac.in/entrepreneurship",
+        "https://www.iitm.ac.in/research/research-centres/rural-technology-and-business-incubator",
+        "https://www.iitd.ac.in/incubation",
+        "https://www.iimcal.ac.in/centres/entrepreneurship-centre",
+        "https://www.iisc.ac.in/centers/ced/",
+        "https://msins.in/",
+        "https://digest.myhq.in/list-startup-incubators-in-india/",
+        "https://startup.telangana.gov.in/other-incubators/",
+        "https://nsrcel.org/",
+        "https://www.amritatbi.com/",
+        "https://www.reddit.com/r/indianstartups/comments/1qulxn8/best_incubators_and_startup_accelerators_in/",
+        "https://www.venturecenter.co.in/",
+        "https://www.failory.com/startups/hyderabad-accelerators-incubators",
+        "https://seedforstartup.in/",
+        "https://www.failory.com/startups/mumbai-accelerators-incubators",
+        "https://t-hub.co/",
+        "https://www.basetemplates.com/investors/top-10-incubators-in-india",
+        "https://startuptn.in/",
+        "https://filingbuddy.global/en-in/blog/top-accelerators-incubators-in-india",
+        "https://bhau.org/",
+        "https://www.failory.com/startups/bangalore-accelerators-incubators",
+        "https://itic.iith.ac.in/",
+        "https://startuptalky.com/incubators-accelerators-delhi/"
+      ]
+    },
+    {
+      "name": "SINE, IIT Bombay",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/"
+      ]
+    },
+    {
+      "name": "KSUM",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/"
+      ]
+    },
+    {
+      "name": "ISBA",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://isba.in/about/"
+      ]
+    },
+    {
+      "name": "NIDHI – Technology Business Incubators (NIDHI – TBI)",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://nidhi.dst.gov.in/nidhitbi/",
+        "https://nidhi.dst.gov.in/",
+        "https://nidhi.dst.gov.in/nidhiitbi/"
+      ]
+    },
+    {
+      "name": "DST-GDC I-NCUBATE PROGRAM",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://nidhi.dst.gov.in/nidhitbi/",
+        "https://nidhi.dst.gov.in/nidhiitbi/"
+      ]
+    },
+    {
+      "name": "NewGen IEDC",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://nidhi.dst.gov.in/nidhitbi/",
+        "https://nidhi.dst.gov.in/"
+      ]
+    },
+    {
+      "name": "I-STED",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://nidhi.dst.gov.in/nidhitbi/",
+        "https://nidhi.dst.gov.in/"
+      ]
+    },
+    {
+      "name": "NIDHI – Inclusive Technology Business Incubators (NIDHI – iTBI)",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://nidhi.dst.gov.in/",
+        "https://nidhi.dst.gov.in/nidhiitbi/"
+      ]
+    },
+    {
+      "name": "NIDHI – Centres of Excellence (NIDHI – CoE)",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://nidhi.dst.gov.in/"
+      ]
+    },
+    {
+      "name": "Atal Incubation Centre",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://aim.gov.in/aic.php",
+        "https://aim.gov.in/selected-atal.php"
+      ]
+    },
+    {
+      "name": "RISE Accelerator",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://aim.gov.in/aic.php",
+        "https://aim.gov.in/selected-atal.php"
+      ]
+    },
+    {
+      "name": "Youth Co: Lab 2026",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://aim.gov.in/aic.php",
+        "https://aim.gov.in/selected-atal.php"
+      ]
+    },
+    {
+      "name": "Youth Co: Lab 2024-25",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://aim.gov.in/aic.php",
+        "https://aim.gov.in/selected-atal.php"
+      ]
+    },
+    {
+      "name": "Youth Co: Lab 2023-24",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://aim.gov.in/aic.php"
+      ]
+    },
+    {
+      "name": "Youth Co: Lab 2022-23",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://aim.gov.in/aic.php"
+      ]
+    },
+    {
+      "name": "Youth Co:Lab 2021",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://aim.gov.in/aic.php",
+        "https://aim.gov.in/selected-atal.php"
+      ]
+    },
+    {
+      "name": "AIM-iCREST",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://aim.gov.in/aic.php",
+        "https://aim.gov.in/selected-atal.php"
+      ]
+    },
+    {
+      "name": "AIM-Prime Program",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://aim.gov.in/aic.php",
+        "https://aim.gov.in/selected-atal.php"
+      ]
+    },
+    {
+      "name": "Startup Mentor Incubator",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://apis.ap.gov.in/home/"
+      ]
+    },
+    {
+      "name": "Indian STEPs and Business Incubators Association (ISBA)",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://andeglobal.org/organization/indian-steps-and-business-incubators-association-isba/"
+      ]
+    },
+    {
+      "name": "Atal Community Innovation Centre",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://aim.gov.in/selected-atal.php"
+      ]
+    },
+    {
+      "name": "AIC Guru Gobind Singh Indraprastha University Foundation",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://aim.gov.in/selected-atal.php"
+      ]
+    },
+    {
+      "name": "AIC @36INC Society",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://aim.gov.in/selected-atal.php"
+      ]
+    },
+    {
+      "name": "AIC Aartech Solonics Pvt. Ltd.",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://aim.gov.in/selected-atal.php"
+      ]
+    },
+    {
+      "name": "Youth Co:Lab 2023-24",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://aim.gov.in/selected-atal.php"
+      ]
+    },
+    {
+      "name": "Youth Co:Lab 2022-23",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://aim.gov.in/selected-atal.php"
+      ]
+    },
+    {
+      "name": "NMIMS Atal Incubation Center",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://aic.nmims.edu/"
+      ]
+    },
+    {
+      "name": "AIC-NMIMS",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://aic.nmims.edu/",
+        "https://startup.telangana.gov.in/other-incubators/"
+      ]
+    },
+    {
+      "name": "edc.iitd.ac.in",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.iitd.ac.in/incubation"
+      ]
+    },
+    {
+      "name": "Abhijnana",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.iitkgp.ac.in/research/technology-incubation"
+      ]
+    },
+    {
+      "name": "IITM Incubation Cell",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.iitm.ac.in/research-park/incubation-cell"
+      ]
+    },
+    {
+      "name": "Villgro",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://tracxn.com/d/investor-lists/accelerators-incubators-in-chennai-india/__rYaFId8hlNZ3sDKqwps8UfR_8qwkNyStBhTISvg62RQ",
+        "https://digest.myhq.in/list-startup-incubators-in-india/"
+      ]
+    },
+    {
+      "name": "RTBI",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://tracxn.com/d/investor-lists/accelerators-incubators-in-chennai-india/__rYaFId8hlNZ3sDKqwps8UfR_8qwkNyStBhTISvg62RQ"
+      ]
+    },
+    {
+      "name": "IITM Bioincubator",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://tracxn.com/d/investor-lists/accelerators-incubators-in-chennai-india/__rYaFId8hlNZ3sDKqwps8UfR_8qwkNyStBhTISvg62RQ"
+      ]
+    },
+    {
+      "name": "StartupTN",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://tracxn.com/d/investor-lists/accelerators-incubators-in-chennai-india/__rYaFId8hlNZ3sDKqwps8UfR_8qwkNyStBhTISvg62RQ"
+      ]
+    },
+    {
+      "name": "CIIC",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://tracxn.com/d/investor-lists/accelerators-incubators-in-chennai-india/__rYaFId8hlNZ3sDKqwps8UfR_8qwkNyStBhTISvg62RQ"
+      ]
+    },
+    {
+      "name": "Atal-GreatLakes Balachandran Incubator",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://tracxn.com/d/investor-lists/accelerators-incubators-in-chennai-india/__rYaFId8hlNZ3sDKqwps8UfR_8qwkNyStBhTISvg62RQ"
+      ]
+    },
+    {
+      "name": "ShelterTech Accelerator",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://tracxn.com/d/investor-lists/accelerators-incubators-in-chennai-india/__rYaFId8hlNZ3sDKqwps8UfR_8qwkNyStBhTISvg62RQ"
+      ]
+    },
+    {
+      "name": "Vel Tech TBI",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://tracxn.com/d/investor-lists/accelerators-incubators-in-chennai-india/__rYaFId8hlNZ3sDKqwps8UfR_8qwkNyStBhTISvg62RQ"
+      ]
+    },
+    {
+      "name": "Golden Jubilee Biotech Park for Women Society",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://tracxn.com/d/investor-lists/accelerators-incubators-in-chennai-india/__rYaFId8hlNZ3sDKqwps8UfR_8qwkNyStBhTISvg62RQ"
+      ]
+    },
+    {
+      "name": "Pongu Ventures",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://tracxn.com/d/investor-lists/accelerators-incubators-in-chennai-india/__rYaFId8hlNZ3sDKqwps8UfR_8qwkNyStBhTISvg62RQ"
+      ]
+    },
+    {
+      "name": "Prime Venture Partners",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://digest.myhq.in/list-startup-incubators-in-india/"
+      ]
+    },
+    {
+      "name": "iCreate",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://digest.myhq.in/list-startup-incubators-in-india/"
+      ]
+    },
+    {
+      "name": "Indian Angel Network",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://digest.myhq.in/list-startup-incubators-in-india/",
+        "https://startuptalky.com/incubators-accelerators-delhi/"
+      ]
+    },
+    {
+      "name": "Amity Innovation Incubator",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://digest.myhq.in/list-startup-incubators-in-india/",
+        "https://startuptalky.com/incubators-accelerators-delhi/"
+      ]
+    },
+    {
+      "name": "CIIE",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://digest.myhq.in/list-startup-incubators-in-india/",
+        "https://filingbuddy.global/en-in/blog/top-accelerators-incubators-in-india"
+      ]
+    },
+    {
+      "name": "T-Hub",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startup.telangana.gov.in/other-incubators/",
+        "https://officechai.com/stories/these-are-top-indian-states-ranked-by-software-exports/",
+        "https://t-hub.co/",
+        "https://filingbuddy.global/en-in/blog/top-accelerators-incubators-in-india",
+        "https://www.failory.com/startups/bangalore-accelerators-incubators",
+        "https://startuptalky.com/incubators-accelerators-delhi/"
+      ]
+    },
+    {
+      "name": "We Hub",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startup.telangana.gov.in/other-incubators/",
+        "https://www.failory.com/startups/hyderabad-accelerators-incubators"
+      ]
+    },
+    {
+      "name": "T-Works",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startup.telangana.gov.in/other-incubators/"
+      ]
+    },
+    {
+      "name": "RICH",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startup.telangana.gov.in/other-incubators/"
+      ]
+    },
+    {
+      "name": "IKP EDEN",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startup.telangana.gov.in/other-incubators/"
+      ]
+    },
+    {
+      "name": "CIE-IIIT Hyderabad",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startup.telangana.gov.in/other-incubators/"
+      ]
+    },
+    {
+      "name": "ASHoka University",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startup.telangana.gov.in/other-incubators/"
+      ]
+    },
+    {
+      "name": "CIIE.CO",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startup.telangana.gov.in/other-incubators/",
+        "https://www.basetemplates.com/investors/top-10-incubators-in-india",
+        "https://www.failory.com/startups/bangalore-accelerators-incubators"
+      ]
+    },
+    {
+      "name": "SINE",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startup.telangana.gov.in/other-incubators/"
+      ]
+    },
+    {
+      "name": "Venture Center",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startup.telangana.gov.in/other-incubators/",
+        "https://www.venturecenter.co.in/"
+      ]
+    },
+    {
+      "name": "AIC-CCMB",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startup.telangana.gov.in/other-incubators/"
+      ]
+    },
+    {
+      "name": "AIC-AMTZ",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startup.telangana.gov.in/other-incubators/"
+      ]
+    },
+    {
+      "name": "AIC-BIM",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startup.telangana.gov.in/other-incubators/"
+      ]
+    },
+    {
+      "name": "AIC-ISE",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startup.telangana.gov.in/other-incubators/"
+      ]
+    },
+    {
+      "name": "AIC-ORF",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startup.telangana.gov.in/other-incubators/"
+      ]
+    },
+    {
+      "name": "AIC-Pinnacle",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startup.telangana.gov.in/other-incubators/"
+      ]
+    },
+    {
+      "name": "AIC-RM",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startup.telangana.gov.in/other-incubators/"
+      ]
+    },
+    {
+      "name": "AIC-SMUTBI",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startup.telangana.gov.in/other-incubators/"
+      ]
+    },
+    {
+      "name": "AIC-SVP",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startup.telangana.gov.in/other-incubators/"
+      ]
+    },
+    {
+      "name": "AIC-TINKERINGLAB",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startup.telangana.gov.in/other-incubators/"
+      ]
+    },
+    {
+      "name": "AIC-VNIT",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startup.telangana.gov.in/other-incubators/"
+      ]
+    },
+    {
+      "name": "Launchpad",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://nsrcel.org/"
+      ]
+    },
+    {
+      "name": "Campus Founders",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://nsrcel.org/"
+      ]
+    },
+    {
+      "name": "Healthcare Incubation Program",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://nsrcel.org/"
+      ]
+    },
+    {
+      "name": "Goldman Sachs _10,000 Women_",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://nsrcel.org/"
+      ]
+    },
+    {
+      "name": "Women Startup Program",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://nsrcel.org/"
+      ]
+    },
+    {
+      "name": "Impact Orbit",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://nsrcel.org/"
+      ]
+    },
+    {
+      "name": "Velocity – Kotak BizLabs",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://nsrcel.org/"
+      ]
+    },
+    {
+      "name": "Circular Bharat Accelerator",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://nsrcel.org/"
+      ]
+    },
+    {
+      "name": "Climate Incubation Hub",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://nsrcel.org/"
+      ]
+    },
+    {
+      "name": "Circular Economy Incubation Program",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://nsrcel.org/"
+      ]
+    },
+    {
+      "name": "Incubation Program for Mobility Startups",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://nsrcel.org/"
+      ]
+    },
+    {
+      "name": "Sustainable Mobility Incubation Program",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://nsrcel.org/"
+      ]
+    },
+    {
+      "name": "Climate Centre of Excellence",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://nsrcel.org/"
+      ]
+    },
+    {
+      "name": "Fintech Centre of Excellence",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://nsrcel.org/"
+      ]
+    },
+    {
+      "name": "Amrita Technology Business Incubator",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.amritatbi.com/"
+      ]
+    },
+    {
+      "name": "MeitY Startup Hub Genesis",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.amritatbi.com/"
+      ]
+    },
+    {
+      "name": "Berkeley Skydeck Program",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.amritatbi.com/"
+      ]
+    },
+    {
+      "name": "WisePrince",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.reddit.com/r/indianstartups/comments/1qulxn8/best_incubators_and_startup_accelerators_in/"
+      ]
+    },
+    {
+      "name": "Axilor",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.reddit.com/r/indianstartups/comments/1qulxn8/best_incubators_and_startup_accelerators_in/"
+      ]
+    },
+    {
+      "name": "NASSCOM 10,000 Startups",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.reddit.com/r/indianstartups/comments/1qulxn8/best_incubators_and_startup_accelerators_in/",
+        "https://www.failory.com/startups/bangalore-accelerators-incubators",
+        "https://startuptalky.com/incubators-accelerators-delhi/"
+      ]
+    },
+    {
+      "name": "Techstars",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.reddit.com/r/indianstartups/comments/1qulxn8/best_incubators_and_startup_accelerators_in/"
+      ]
+    },
+    {
+      "name": "Centre for Incubation and Business Acceleration (CIBA)",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://cibamumbai.org.in/"
+      ]
+    },
+    {
+      "name": "BFI BIOME",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.venturecenter.co.in/"
+      ]
+    },
+    {
+      "name": "MSME DEIA Catalyst",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.venturecenter.co.in/"
+      ]
+    },
+    {
+      "name": "Lab2Mkt: Spinouts from academic organizations",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.venturecenter.co.in/"
+      ]
+    },
+    {
+      "name": "Early Translation Accelerator",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.venturecenter.co.in/"
+      ]
+    },
+    {
+      "name": "MeiTY SAMRIDH",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.venturecenter.co.in/"
+      ]
+    },
+    {
+      "name": "Bioincubation",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.venturecenter.co.in/"
+      ]
+    },
+    {
+      "name": "Social Innovation",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.venturecenter.co.in/"
+      ]
+    },
+    {
+      "name": "BRBC",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.venturecenter.co.in/"
+      ]
+    },
+    {
+      "name": "NCL Technology & Entrepreneurship Club",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.venturecenter.co.in/"
+      ]
+    },
+    {
+      "name": "Rx Innovation Circle",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.venturecenter.co.in/"
+      ]
+    },
+    {
+      "name": "BIRAC BioNest",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.venturecenter.co.in/"
+      ]
+    },
+    {
+      "name": "NBM – CBA",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.venturecenter.co.in/"
+      ]
+    },
+    {
+      "name": "NIDHI-CoE",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.venturecenter.co.in/"
+      ]
+    },
+    {
+      "name": "BIRAC-BRBC",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.venturecenter.co.in/"
+      ]
+    },
+    {
+      "name": "NBM-RTTO",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.venturecenter.co.in/"
+      ]
+    },
+    {
+      "name": "The IIIT-H Foundation",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.failory.com/startups/hyderabad-accelerators-incubators"
+      ]
+    },
+    {
+      "name": "Avishkar accelerator",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.failory.com/startups/hyderabad-accelerators-incubators"
+      ]
+    },
+    {
+      "name": "DLabs",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.failory.com/startups/hyderabad-accelerators-incubators"
+      ]
+    },
+    {
+      "name": "Spark10 Accelerator",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.failory.com/startups/hyderabad-accelerators-incubators"
+      ]
+    },
+    {
+      "name": "Parampara",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.failory.com/startups/hyderabad-accelerators-incubators"
+      ]
+    },
+    {
+      "name": "CIE IIIT Hyderabad",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.failory.com/startups/hyderabad-accelerators-incubators"
+      ]
+    },
+    {
+      "name": "Center for Innovation and Entrepreneurship",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.failory.com/startups/hyderabad-accelerators-incubators"
+      ]
+    },
+    {
+      "name": "Atal Incubation Centre, IISER Pune",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://seedforstartup.in/"
+      ]
+    },
+    {
+      "name": "AIC-SEED",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://seedforstartup.in/"
+      ]
+    },
+    {
+      "name": "K-Tech Hub",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.missionstartupkarnataka.org/network/incubator"
+      ]
+    },
+    {
+      "name": "100Unicorns",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.failory.com/startups/mumbai-accelerators-incubators"
+      ]
+    },
+    {
+      "name": "thinQbate",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.failory.com/startups/mumbai-accelerators-incubators"
+      ]
+    },
+    {
+      "name": "Aurum Ventures",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.failory.com/startups/mumbai-accelerators-incubators"
+      ]
+    },
+    {
+      "name": "Z Nation Lab",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.failory.com/startups/mumbai-accelerators-incubators"
+      ]
+    },
+    {
+      "name": "VentureNursery",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.failory.com/startups/mumbai-accelerators-incubators"
+      ]
+    },
+    {
+      "name": "We Founder Circle",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.failory.com/startups/mumbai-accelerators-incubators"
+      ]
+    },
+    {
+      "name": "Startupbootcamp",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startupbootcamp.org/"
+      ]
+    },
+    {
+      "name": "Google For Startups Hub",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://t-hub.co/"
+      ]
+    },
+    {
+      "name": "AIC T-Hub",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://t-hub.co/"
+      ]
+    },
+    {
+      "name": "MATH AI & ML Innovation",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://t-hub.co/"
+      ]
+    },
+    {
+      "name": "Venture Catalysts",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.basetemplates.com/investors/top-10-incubators-in-india"
+      ]
+    },
+    {
+      "name": "9Unicorns Accelerator Fund",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.basetemplates.com/investors/top-10-incubators-in-india"
+      ]
+    },
+    {
+      "name": "Axilor Ventures",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.basetemplates.com/investors/top-10-incubators-in-india",
+        "https://www.failory.com/startups/bangalore-accelerators-incubators"
+      ]
+    },
+    {
+      "name": "India Accelerator",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.basetemplates.com/investors/top-10-incubators-in-india"
+      ]
+    },
+    {
+      "name": "Startup Oasis",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.basetemplates.com/investors/top-10-incubators-in-india",
+        "https://filingbuddy.global/en-in/blog/top-accelerators-incubators-in-india",
+        "https://www.failory.com/startups/bangalore-accelerators-incubators",
+        "https://startuptalky.com/incubators-accelerators-delhi/"
+      ]
+    },
+    {
+      "name": "IIM Bangalore's NSRCEL",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.basetemplates.com/investors/top-10-incubators-in-india",
+        "https://filingbuddy.global/en-in/blog/top-accelerators-incubators-in-india",
+        "https://www.failory.com/startups/bangalore-accelerators-incubators"
+      ]
+    },
+    {
+      "name": "IIT Delhi's FITT",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.basetemplates.com/investors/top-10-incubators-in-india",
+        "https://filingbuddy.global/en-in/blog/top-accelerators-incubators-in-india",
+        "https://www.failory.com/startups/bangalore-accelerators-incubators"
+      ]
+    },
+    {
+      "name": "IIM Ahmedabad's CIIE.CO",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.basetemplates.com/investors/top-10-incubators-in-india",
+        "https://www.failory.com/startups/bangalore-accelerators-incubators"
+      ]
+    },
+    {
+      "name": "TANSIM",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startuptn.in/"
+      ]
+    },
+    {
+      "name": "TANSEED",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startuptn.in/"
+      ]
+    },
+    {
+      "name": "AngelsTN",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startuptn.in/"
+      ]
+    },
+    {
+      "name": "TN SC/ST Startup Fund",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startuptn.in/"
+      ]
+    },
+    {
+      "name": "Conventional Institutions Engagement",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startuptn.in/"
+      ]
+    },
+    {
+      "name": "TANFUND",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startuptn.in/"
+      ]
+    },
+    {
+      "name": "Scaleup Incubators",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startuptn.in/"
+      ]
+    },
+    {
+      "name": "Editn",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startuptn.in/"
+      ]
+    },
+    {
+      "name": "Fame tn",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startuptn.in/"
+      ]
+    },
+    {
+      "name": "Fort forge forward",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startuptn.in/"
+      ]
+    },
+    {
+      "name": "Forge iv",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startuptn.in/"
+      ]
+    },
+    {
+      "name": "ITNTHUB",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startuptn.in/"
+      ]
+    },
+    {
+      "name": "naanmudhalvan",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startuptn.in/"
+      ]
+    },
+    {
+      "name": "tansidco",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startuptn.in/"
+      ]
+    },
+    {
+      "name": "sipcotweb",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startuptn.in/"
+      ]
+    },
+    {
+      "name": "Amrita TBI",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://filingbuddy.global/en-in/blog/top-accelerators-incubators-in-india"
+      ]
+    },
+    {
+      "name": "IIM Ahmedabad's CIIE",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://filingbuddy.global/en-in/blog/top-accelerators-incubators-in-india"
+      ]
+    },
+    {
+      "name": "IIT Bombay's SINE",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://filingbuddy.global/en-in/blog/top-accelerators-incubators-in-india",
+        "https://www.failory.com/startups/bangalore-accelerators-incubators"
+      ]
+    },
+    {
+      "name": "WeHub",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://filingbuddy.global/en-in/blog/top-accelerators-incubators-in-india",
+        "https://www.failory.com/startups/bangalore-accelerators-incubators"
+      ]
+    },
+    {
+      "name": "Startup India",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://filingbuddy.global/en-in/blog/top-accelerators-incubators-in-india"
+      ]
+    },
+    {
+      "name": "Atal Innovation Mission",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://filingbuddy.global/en-in/blog/top-accelerators-incubators-in-india"
+      ]
+    },
+    {
+      "name": "Bhau Institute",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://bhau.org/"
+      ]
+    },
+    {
+      "name": "Bhau E-Cell",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://bhau.org/"
+      ]
+    },
+    {
+      "name": "Incubate Fund India",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.failory.com/startups/bangalore-accelerators-incubators"
+      ]
+    },
+    {
+      "name": "Target Accelerators",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.failory.com/startups/bangalore-accelerators-incubators"
+      ]
+    },
+    {
+      "name": "NetApp Excellerator",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.failory.com/startups/bangalore-accelerators-incubators"
+      ]
+    },
+    {
+      "name": "Mintosh Advisory",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.failory.com/startups/bangalore-accelerators-incubators"
+      ]
+    },
+    {
+      "name": "Accel Atoms",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.failory.com/startups/bangalore-accelerators-incubators"
+      ]
+    },
+    {
+      "name": "Sattva",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.failory.com/startups/bangalore-accelerators-incubators"
+      ]
+    },
+    {
+      "name": "Brigade Real Estate Accelerator",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.failory.com/startups/bangalore-accelerators-incubators"
+      ]
+    },
+    {
+      "name": "Zone Startups India",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.failory.com/startups/bangalore-accelerators-incubators"
+      ]
+    },
+    {
+      "name": "GUSEC",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.failory.com/startups/bangalore-accelerators-incubators"
+      ]
+    },
+    {
+      "name": "IIT Madras's RTBI",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.failory.com/startups/bangalore-accelerators-incubators"
+      ]
+    },
+    {
+      "name": "KIT's Innovation and Research Foundation, KIT's IRF",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://msins.in/Incubators"
+      ]
+    },
+    {
+      "name": "AIC - BAMU Foundation",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://msins.in/Incubators"
+      ]
+    },
+    {
+      "name": "ARAI - AMTIF Institute",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://msins.in/Incubators"
+      ]
+    },
+    {
+      "name": "BAIF Development Research Foundation",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://msins.in/Incubators"
+      ]
+    },
+    {
+      "name": "COEP Bhau Institute",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://msins.in/Incubators"
+      ]
+    },
+    {
+      "name": "D Y Patil Institute",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://msins.in/Incubators"
+      ]
+    },
+    {
+      "name": "DBATU Forum of Innovation, Incubation & Enterprise",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://msins.in/Incubators"
+      ]
+    },
+    {
+      "name": "iSpark Mumbai (MSSU Mumbai)",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://msins.in/Incubators"
+      ]
+    },
+    {
+      "name": "iTIC",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://itic.iith.ac.in/"
+      ]
+    },
+    {
+      "name": "NICE",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://itic.iith.ac.in/"
+      ]
+    },
+    {
+      "name": "TiHAN",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://itic.iith.ac.in/"
+      ]
+    },
+    {
+      "name": "iDEX",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://itic.iith.ac.in/"
+      ]
+    },
+    {
+      "name": "NIDHI PRAYAS",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://itic.iith.ac.in/"
+      ]
+    },
+    {
+      "name": "Meity TIDE 2.0",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://itic.iith.ac.in/"
+      ]
+    },
+    {
+      "name": "AISEA",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://itic.iith.ac.in/"
+      ]
+    },
+    {
+      "name": "BEL Seed Fund",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://itic.iith.ac.in/"
+      ]
+    },
+    {
+      "name": "ABCD2",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://itic.iith.ac.in/"
+      ]
+    },
+    {
+      "name": "BUILD",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://itic.iith.ac.in/"
+      ]
+    },
+    {
+      "name": "SISFS",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://itic.iith.ac.in/"
+      ]
+    },
+    {
+      "name": "1Mby1M",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.sramanamitra.com/2026/04/04/top-startup-accelerators-for-solo-founders-in-coimbatore/"
+      ]
+    },
+    {
+      "name": "Microsoft for Startups Founders Hub",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.sramanamitra.com/2026/04/04/top-startup-accelerators-for-solo-founders-in-coimbatore/"
+      ]
+    },
+    {
+      "name": "AWS Activate",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.sramanamitra.com/2026/04/04/top-startup-accelerators-for-solo-founders-in-coimbatore/"
+      ]
+    },
+    {
+      "name": "Founder Institute",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.sramanamitra.com/2026/04/04/top-startup-accelerators-for-solo-founders-in-coimbatore/"
+      ]
+    },
+    {
+      "name": "Antler India",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.sramanamitra.com/2026/04/04/top-startup-accelerators-for-solo-founders-in-coimbatore/"
+      ]
+    },
+    {
+      "name": "Y Combinator (Remote)",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.sramanamitra.com/2026/04/04/top-startup-accelerators-for-solo-founders-in-coimbatore/"
+      ]
+    },
+    {
+      "name": "Techstars (Global Remote)",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.sramanamitra.com/2026/04/04/top-startup-accelerators-for-solo-founders-in-coimbatore/"
+      ]
+    },
+    {
+      "name": "Forge Accelerator (Coimbatore)",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://www.sramanamitra.com/2026/04/04/top-startup-accelerators-for-solo-founders-in-coimbatore/"
+      ]
+    },
+    {
+      "name": "Tlabs Accelerator",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startuptalky.com/incubators-accelerators-delhi/"
+      ]
+    },
+    {
+      "name": "IAN Incubator",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startuptalky.com/incubators-accelerators-delhi/"
+      ]
+    },
+    {
+      "name": "Microsoft Accelerator",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startuptalky.com/incubators-accelerators-delhi/"
+      ]
+    },
+    {
+      "name": "SAP Startup Studio",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startuptalky.com/incubators-accelerators-delhi/"
+      ]
+    },
+    {
+      "name": "CIIE Initiatives",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startuptalky.com/incubators-accelerators-delhi/"
+      ]
+    },
+    {
+      "name": "IIM Ahmedabad’s CIIE",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startuptalky.com/incubators-accelerators-delhi/"
+      ]
+    },
+    {
+      "name": "IIT Delhi’s Faculty of Management",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startuptalky.com/incubators-accelerators-delhi/"
+      ]
+    },
+    {
+      "name": "IIT Delhi’s Department of Management Studies",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startuptalky.com/incubators-accelerators-delhi/"
+      ]
+    },
+    {
+      "name": "DTU’s Technology Business Incubator Unit",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startuptalky.com/incubators-accelerators-delhi/"
+      ]
+    },
+    {
+      "name": "IIIT Delhi’s Innovation and Incubation Centre",
+      "website": "",
+      "city": "",
+      "state": "",
+      "type": "",
+      "backing": "",
+      "sources": [
+        "https://startuptalky.com/incubators-accelerators-delhi/"
+      ]
+    }
+  ]
+}

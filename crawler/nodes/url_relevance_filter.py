@@ -20,6 +20,18 @@ async def filter_relevant_urls(
     state: State, config: Optional[RunnableConfig] = None
 ) -> dict[str, Any]:
     configuration = Configuration.from_runnable_config(config)
+
+    # When using OpenClaw, documents are already pre-ranked and topic-relevant.
+    # Running them through the SearXNG-tuned heuristic filter can unfairly discard
+    # valid results whose snippet text doesn't lexically overlap with the query
+    # (e.g., homepage titles that match by topic, not by keyword).
+    if getattr(configuration, "enable_openclaw", False) and state.preloaded_crawled_docs:
+        print(
+            f"[URL Relevance] OpenClaw mode — skipping filter for "
+            f"{len(state.discovered_urls)} pre-ranked URLs."
+        )
+        return {"discovered_urls": state.discovered_urls, "irrelevant_urls": []}
+
     agent = URLRelevanceAgent(
         model=configuration.model,
         min_overlap_score=configuration.min_url_relevance_score,

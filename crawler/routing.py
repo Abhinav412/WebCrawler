@@ -5,7 +5,7 @@ from typing import Literal
 from crawler.state import State
 
 
-def route_after_evaluation(state: State) -> Literal["__end__", "intent_parser", "investigator"]:
+def route_after_evaluation(state: State) -> Literal["__end__", "investigator"]:
     """Retry while gaps remain and retry budget is available."""
     if state.missing_data_targets:
         if state.retry_count <= state.max_retries:

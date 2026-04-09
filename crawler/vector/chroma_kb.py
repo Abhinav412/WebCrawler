@@ -10,36 +10,29 @@ from typing import Any, Iterable
 import chromadb
 
 
-def _tokenize(text: str) -> list[str]:
-    """Lowercase tokenization suitable for a small local embedding."""
-    return re.findall(r"[a-z0-9]+", text.lower())
+_embedder = None
 
-
-def _normalize_metric_key(value: str) -> str:
-    return re.sub(r"\s+", " ", value).strip().lower()
-
-
-def hash_embed(text: str, *, dimensions: int = 384) -> list[float]:
-    """Generate a deterministic embedding vector from text.
-
-    This is not a replacement for SOTA embedding models, but it is fast,
-    local, and sufficient for a local vector-search baseline.
+def semantic_embed(text: str, *, dimensions: int = 384) -> list[float]:
+    """Generate a semantic embedding vector from text using sentence-transformers.
+    
+    This replaces the old hash-based implementation to provide true semantic similarity
+    (e.g., 'Healthcare' and 'Medical' will map to similar vectors).
     """
-    tokens = _tokenize(text)
-    if not tokens:
-        return [0.0] * dimensions
+    global _embedder
+    if _embedder is None:
+        try:
+            from sentence_transformers import SentenceTransformer
+            # all-MiniLM-L6-v2 outputs exactly 384 dimensions and is fast/lightweight
+            _embedder = SentenceTransformer('all-MiniLM-L6-v2')
+        except ImportError as exc:
+            raise RuntimeError(
+                "sentence-transformers is not installed. "
+                "Install it with: pip install sentence-transformers"
+            ) from exc
 
-    vector = [0.0] * dimensions
-    for token in tokens:
-        digest = hashlib.blake2b(token.encode("utf-8"), digest_size=8).digest()
-        bucket = int.from_bytes(digest[:4], "little") % dimensions
-        sign = 1.0 if (digest[4] & 1) else -1.0
-        vector[bucket] += sign
-
-    norm = math.sqrt(sum(v * v for v in vector))
-    if norm == 0:
-        return vector
-    return [v / norm for v in vector]
+    # The encode() method handles tokenization automatically and returns an array
+    vector = _embedder.encode(text).tolist()
+    return vector
 
 
 def _as_dict(record: Any) -> dict[str, Any]:
@@ -104,7 +97,7 @@ def _build_entity_metadata(entity: dict[str, Any]) -> dict[str, Any]:
     if isinstance(metrics, dict):
         norm_keys = sorted(
             {
-                _normalize_metric_key(str(metric_key))
+                re.sub(r"\s+", " ", str(metric_key)).strip().lower()
                 for metric_key in metrics.keys()
                 if str(metric_key).strip()
             }
@@ -199,7 +192,7 @@ class ChromaKnowledgeBase:
             ids.append(item_id)
             docs.append(document)
             metadatas.append(metadata)
-            embeddings.append(hash_embed(document, dimensions=self.embedding_dimensions))
+            embeddings.append(semantic_embed(document, dimensions=self.embedding_dimensions))
 
         if not ids:
             return []
@@ -295,7 +288,7 @@ class ChromaKnowledgeBase:
         session_id: str | None = None,
     ) -> list[dict[str, Any]]:
         """Query the knowledge base and return ranked matches."""
-        query_embedding = hash_embed(
+        query_embedding = semantic_embed(
             query_text,
             dimensions=self.embedding_dimensions,
         )
